@@ -1,0 +1,60 @@
+/*body{
+	background-color: red;
+}*/
+html,body,.container{
+	height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li:nth-child(odd){
+	background: #eec;
+}
+#q{
+	background-color: rgb(50,80,130);
+}
+.firstdiv{
+	width:30%;
+	height: 60%;
+	border:1px solid black;
+	margin:100px auto;
+}
+
+
+#firstspan{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding:4px;
+	margin-right:2px;
+}
+
+.ione{
+	float: right;
+    font-size: 30px;
+    font-weight: 100;
+    margin-right:2px;
+    padding-right: 4px;
+}
+
+li span{
+	opacity: 0;
+}
+li span:hover{
+	opacity: 1.0;
+}
+
+input{
+	width:100%;
+	background:	none;
+	height: 25px;
+}
+.w{
+	color:white;
+}
+
+
+
