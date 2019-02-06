@@ -1,0 +1,94 @@
+body{background: #50C9C3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+box-sizing:border-box;
+	}
+html,body,.container{
+	height: 100%;
+	z-index: 0;
+
+}
+div[class="container"]{
+	margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li:nth-child(odd){
+	/*background: #eec;*/
+	background:  #f7f7f7;
+}
+li:nth-child(even){
+	/*background: #eec;*/
+	background:  #fff;
+}
+#q{
+	background-color: rgb(50,80,130);
+	padding:0.5rem;		
+
+}
+.firstdiv{
+	width:40%;
+	height: 60%;
+	border:1px solid black;
+	margin:100px auto;
+	z-index: 1;
+}
+
+
+#firstspan{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding:4px;
+	margin-right:2px;
+}
+
+#j{
+	float: right;
+    font-size: 30px;
+    font-weight: 100;
+    margin:3px;
+    padding: 4px;
+    color:white;
+}
+
+
+li{
+	font-size:25px;
+	max-width:99%;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+}
+
+li span{
+	opacity: 0;
+}
+li span:hover{
+	opacity: 1.0;
+}
+
+input{
+	width:100%;
+	background:	none;
+	height: 6%;
+	outline:none;
+}
+.w{
+	color:white;
+}
+
+
+
