@@ -1,2 +1,2 @@
 # Todo-list
-It is a todo list that store the users database like their goals and their achivements.
+It is a todo list that store the users data like their goals and their achivements.
